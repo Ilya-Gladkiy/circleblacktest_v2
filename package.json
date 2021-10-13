@@ -1,0 +1,22 @@
+{
+  "name": "software-interview",
+  "version": "1.0.0",
+  "description": "A software interview",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "CircleBlack",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "sqlite-async": "^1.1.0",
+    "sqlite3": "^5.0.0"
+  }
+}
