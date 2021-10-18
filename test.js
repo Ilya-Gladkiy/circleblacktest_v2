@@ -151,7 +151,6 @@ describe('SQL Database', () => {
         .catch((err) => {
           expect(err).to.have.property('errno').that.equals(19);
           expect(err).to.have.property('code').that.equals('SQLITE_CONSTRAINT');
-          db.rollback();
         })
         .then(() => db.findAccount('Rollback'))
         .then(account => {expect(account).to.not.exist;})
